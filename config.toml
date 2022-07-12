@@ -1,9 +1,10 @@
 # -- Base Conf --
-baseURL = "https://bit-orbit.github.io/"
+baseURL = "https://bit-orbit.github.io/bitorbit/"
 languageCode = "fa-IR"
 title = "bit orbit"
 theme = "bookworm-FE"
 paginate = "5"
+publishDir = "docs/"
 
 # - Post Url - 
 [permalinks]
