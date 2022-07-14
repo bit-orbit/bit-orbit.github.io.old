@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="fa-IR">
+<head>
+  <meta charset="utf-8">
+  <title>bit orbit | کپی کردن ریزالت پایپ به کلیپ برد</title>
+
+  <meta name="author" content="">
+  <meta name="description" content="  Linux | Project | Python | Book | Fun | Life | Love  ">
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+
+  <!-- Favicon -->
+  <link rel="icon" href="https://bit-orbit.github.io/bitorbit/images/favicon.png" type="image/x-icon">
+
+  <!-- CSS Plugins -->
+  
+<link rel="preconnect" href="https://fonts.gstatic.com">
+
+
+
+<link rel="stylesheet" href="https://cdn.rtlcss.com/bootstrap/v4.5.3/css/bootstrap.min.css">
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v29.1.0/dist/font-face.css">
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://ghcdn.rawgit.org/Gnkalk/Vanilla-Gallery/main/Css-script/RO/Gallery-OCO.css">
+
+
+
+
+<link rel="stylesheet" href="https://bit-orbit.github.io/bitorbit/css/vendor.min.5a4980c69e064f372c3d617d49331670e3f8a38c112f042c0288fe78f25b437dc5bb472ce513e1096543d6823aebd7ad863cb924be98139a402d7e8c41b69184.css" integrity="sha512-WkmAxp4GTzcsPWF9STMWcOP4o4wRLwQsAoj&#43;ePJbQ33Fu0cs5RPhCWVD1oI669ethjy5JL6YE5pALX6MQbaRhA==" media="screen">
+
+
+  
+
+  
+
+  <script>if(!sessionStorage.getItem("_swa")&&document.referrer.indexOf(location.protocol+"//"+location.host)!== 0){fetch("https://counter.dev/track?"+new URLSearchParams({referrer:document.referrer,screen:screen.width+"x"+screen.height,user:"gnkalk",utcoffset:"5"}))};sessionStorage.setItem("_swa","1");</script>
+
+  
+</head>
+
+<body>
+  
+  <div class="header-height-fix"></div>
+<header class="header-nav">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <nav class="navbar navbar-expand-lg navbar-light p-0">
+          <a class="navbar-brand font-weight-bold mr-0" href="https://bit-orbit.github.io/bitorbit/">
+            
+            <img loading="lazy" src="https://bit-orbit.github.io/bitorbit/images/logo.png" alt="bit orbit" height="65px">
+            
+          </a>
+
+          
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navHeader" aria-controls="navHeader" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="d-inline lab la-buromobelexperte"></i>
+            <i class="d-none las la-times"></i>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navHeader">
+            <ul class="navbar-nav ml-auto">
+
+              
+              
+              
+              
+              
+              <li class="nav-item ">
+                <a class="nav-link" href="https://bit-orbit.github.io/bitorbit/">خانه</a>
+              </li>
+              
+              
+              
+              
+              
+              <li class="nav-item ">
+                <a class="nav-link" href="https://bit-orbit.github.io/bitorbit/about">درباره ما</a>
+              </li>
+              
+              
+              
+              
+              
+              <li class="nav-item ">
+                <a class="nav-link" href="https://bit-orbit.github.io/bitorbit/contact">ارتباط با ما</a>
+              </li>
+              
+              
+            </ul>
+            
+            
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+  
+  
+
+
+
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-9">
+        <div class="pr-lg-4">
+          <div class="text-center mb-5">
+            <h3 class="h2 mb-4 post-title">کپی کردن ریزالت پایپ به کلیپ برد</h3>
+            <ul class="card-meta list-inline"><li class="list-inline-item">
+              <a href="#!" class="card-meta-author">
+                
+                <a href="https://bit-orbit.github.io/bitorbit/author/arya/" class="card-meta-author">
+                  <img loading="lazy" src="https://bit-orbit.github.io/bitorbit/images/author/arya.jpeg" alt="Arya Shabane">
+                  <span>Arya Shabane</span>
+                </a>
+                
+              </a>
+            </li>
+          </li>
+          <li class="list-inline-item">|</li>
+          <li class="list-inline-item">
+            <span>May 2022</span>
+          </li>
+        </ul>
+      </div>
+      
+      <div class="mb-5 text-center">
+        <img loading="lazy" class="img-fluid rounded" src="https://bit-orbit.github.io/bitorbit/images/post/cclp.jpg" alt="Image not Found">
+      </div>
+      
+
+      <div class="content">
+        <!-- raw HTML omitted -->
+<p>ما زمانی که برنامه‌ای در ترمینال اجرا می‌کنیم برای کپی کردن ریزالت اون برنامه، با موس تکست رو سلکت می‌کنیم و بعد کپی می‌کنیم. اما می‌دونیم که توی لینوکس ما pipe رو داریم.
+پایپ کردن به این معنی است که شما یک برنامه رو اجرا می‌کنید و ریزالت اون برنامه رو بعنوان ورودی به یک برنامه دیگر می‌دهید.
+و خب کاش می‌شد با پایپ کردن، متنی کپی بشه!</p>
+<p>برنامه‌ای ساده نوشتم که این کار رو برای ما به سادگی انجام بده.</p>
+<p>مثلا ما می‌خواهیم لیست فایل ها و دایرکتوری های داخل پوشه /var/ رو کپی کنیم.
+می‌دونیم که دستور ls میاد و لیست فایل ها رو می‌گیره، کافیه این رو پایپ کنیم به clp تا این لیست به کلیپ برد کپی بشه.</p>
+<p><code>ls /var | clp</code></p>
+<p>برای نصب این چند دستور رو می‌تونید اجرا کنید:</p>
+<!-- raw HTML omitted -->
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cd /tmp/ <span style="color:#f92672">&amp;&amp;</span> wget <span style="color:#e6db74">&#39;https://raw.githubusercontent.com/shabane/clp/master/clp.py&#39;</span>
+</span></span><span style="display:flex;"><span>cp clp.py ~/.local/bin/clp
+</span></span><span style="display:flex;"><span>chmod +x ~/.local/bin/clp
+</span></span><span style="display:flex;"><span>clp -h
+</span></span></code></pre></div><!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>و خب می‌تونید برای دیدن مثال ها ریپوی گیتهاب برنامه رو هم ببینید</p>
+<p><a href="https://github.com/shabane/clp">https://github.com/shabane/clp</a></p>
+<!-- raw HTML omitted -->
+
+      </div>
+      
+      <div class="single-post-meta">
+        <div class="row justify-content-center">
+          <div class="col-lg-5 col-md-6 text-center text-md-left">
+            <ul class="post-meta-tags list-unstyled list-inline">
+              
+            </ul>
+          </div>
+          <div class="col-lg-5 col-md-6 text-center text-md-right mt-4 mt-md-0">
+<ul class="social-links has-bg-color list-unstyled list-inline" style="line-height:0">
+  <li class="list-inline-item">
+    
+    <a class="resp-sharing-button__link d-block" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fbit-orbit.github.io%2fbitorbit%2fblog%2fpost%2fstdin-to-clp%2f" target="_blank"
+      rel="noopener" aria-label="">
+      <div class="resp-sharing-button resp-sharing-button--facebook resp-sharing-button--small">
+        <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+          <i class="lab la-facebook-f text-dark"></i>
+        </div>
+      </div>
+    </a>
+  </li>
+
+  <li class="list-inline-item">
+    
+    <a class="resp-sharing-button__link d-block" href="https://twitter.com/intent/tweet/?text=%da%a9%d9%be%db%8c%20%da%a9%d8%b1%d8%af%d9%86%20%d8%b1%db%8c%d8%b2%d8%a7%d9%84%d8%aa%20%d9%be%d8%a7%db%8c%d9%be%20%d8%a8%d9%87%20%da%a9%d9%84%db%8c%d9%be%20%d8%a8%d8%b1%d8%af&amp;url=https%3a%2f%2fbit-orbit.github.io%2fbitorbit%2fblog%2fpost%2fstdin-to-clp%2f"
+      target="_blank" rel="noopener" aria-label="">
+      <div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--small">
+        <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+          <i class="lab la-twitter text-dark"></i>
+        </div>
+      </div>
+    </a>
+  </li>
+
+  <li class="list-inline-item">
+    
+    <a class="resp-sharing-button__link d-block" href="https://plus.google.com/share?url=https%3a%2f%2fbit-orbit.github.io%2fbitorbit%2fblog%2fpost%2fstdin-to-clp%2f" target="_blank"
+      rel="noopener" aria-label="">
+      <div class="resp-sharing-button resp-sharing-button--google resp-sharing-button--small">
+        <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+          <i class="lab la-google-plus-g text-dark"></i>
+        </div>
+      </div>
+    </a>
+  </li>
+
+  <li class="list-inline-item">
+    
+    <a class="resp-sharing-button__link d-block" href="mailto:?subject=%da%a9%d9%be%db%8c%20%da%a9%d8%b1%d8%af%d9%86%20%d8%b1%db%8c%d8%b2%d8%a7%d9%84%d8%aa%20%d9%be%d8%a7%db%8c%d9%be%20%d8%a8%d9%87%20%da%a9%d9%84%db%8c%d9%be%20%d8%a8%d8%b1%d8%af&amp;body=https%3a%2f%2fbit-orbit.github.io%2fbitorbit%2fblog%2fpost%2fstdin-to-clp%2f" target="_self"
+      rel="noopener" aria-label="">
+      <div class="resp-sharing-button resp-sharing-button--email resp-sharing-button--small">
+        <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+          <i class="las la-envelope text-dark"></i>
+        </div>
+      </div>
+    </a>
+  </li>
+
+  <li class="list-inline-item">
+    
+    <a class="resp-sharing-button__link d-block" href="whatsapp://send?text=%da%a9%d9%be%db%8c%20%da%a9%d8%b1%d8%af%d9%86%20%d8%b1%db%8c%d8%b2%d8%a7%d9%84%d8%aa%20%d9%be%d8%a7%db%8c%d9%be%20%d8%a8%d9%87%20%da%a9%d9%84%db%8c%d9%be%20%d8%a8%d8%b1%d8%af%20https%3a%2f%2fbit-orbit.github.io%2fbitorbit%2fblog%2fpost%2fstdin-to-clp%2f" target="_blank"
+      rel="noopener" aria-label="">
+      <div class="resp-sharing-button resp-sharing-button--whatsapp resp-sharing-button--small">
+        <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+          <i class="lab la-whatsapp text-dark"></i>
+        </div>
+      </div>
+    </a>
+  </li>
+
+</ul></div>
+        </div>
+      </div>
+  
+      <div class="single-post-author">
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="media d-block d-sm-flex text-center text-sm-left">
+              
+              <a href="https://bit-orbit.github.io/bitorbit/author/arya/"><img loading="lazy" class="img-fluid rounded-circle mr-0 mr-sm-4 mb-4" src="https://bit-orbit.github.io/bitorbit/images/author/arya.jpeg" alt="Arya Shabane"></a>
+              <div class="media-body">
+                <p class="font-primary mb-1">نوشته شده توسط</p>
+                <h4><a href="https://bit-orbit.github.io/bitorbit/author/arya/" class="text-dark font-weight-700">Arya Shabane</a></h4>
+                <p class="font-primary"></p>
+                <ul class="social-links list-unstyled list-inline ml-0 ml-sm-n2">
+                  
+                  <li class="list-inline-item"><a href="https://twitter.com/m_shabane">
+                      <i class="lab la-twitter"></i>
+                    </a></li>
+                  
+                  <li class="list-inline-item"><a href="https://t.me/s/bit_orbit">
+                      <i class="lab la-telegram"></i>
+                    </a></li>
+                  
+                  <li class="list-inline-item"><a href="https://instagram.com/arya_shabane">
+                      <i class="lab la-instagram"></i>
+                    </a></li>
+                  
+                </ul>
+                
+              </div>
+              
+            </div>
+            <div>
+              <script src="https://utteranc.es/client.js"
+                repo="bit-orbit/bit-orbit.github.io"
+                issue-term="title"
+                label="Comment"
+                theme="github-light"
+                crossorigin="anonymous"
+                async>
+              </script>
+            </div>
+          </div>
+  
+          <div class="single-post-similer">
+            <div class="row justify-content-center">
+              <div class="col-lg-10">
+                <div class="row mt-3">
+                  <div class="col-12">
+                    <h3 class="text-dark font-weight-800 mb-4 pb-2">شاید از مطالب زیر هم خوشتان بیاد</h3>
+                  </div>
+                  
+                    
+                  <div class="col-md-6">
+                    <article class="card post-card">
+  
+  <a href="https://bit-orbit.github.io/bitorbit/blog/post/carbon/">
+    <img loading="lazy" class="w-100 rounded" src="https://bit-orbit.github.io/bitorbit/images/post/carbon_r7tm.jpg" alt="ساخت کوتاه کننده لینک با گیتهاب پیجز">
+  </a>
+  
+  <div class="card-body" dir="rtl">
+    <ul class="card-meta list-inline mb-2">
+      <li class="list-inline-item mb-2">
+        
+        <a href="https://bit-orbit.github.io/bitorbit/author/arya/" class="card-meta-author">
+          
+          <img loading="lazy" src="https://bit-orbit.github.io/bitorbit/images/author/arya.jpeg" alt="Arya Shabane">
+          
+          <span>Arya Shabane</span>
+        </a>
+        
+      </li>
+      <li class="list-inline-item mb-2">
+        <span>March 2022</span>
+      </li>
+      <li class="list-inline-item mb-2">
+        <ul class="card-meta-tag list-inline">
+          
+        </ul>
+      </li>
+    </ul>
+    <h3 class="mb-3">
+      <a class="post-title" href="https://bit-orbit.github.io/bitorbit/blog/post/carbon/">ساخت کوتاه کننده لینک با گیتهاب پیجز</a>
+    </h3>
+    <p> شاید تا به حال از کوتاه کننده های لینک استفاده کرده باشید، اما ایا سایت کوتاه کننده لینک خودتون رو درست کردین؟
+گیتهاب پیجز یک سرور رایگان برای دیپلوی …</p>
+
+    <a href="https://bit-orbit.github.io/bitorbit/blog/post/carbon/" aria-label="More on ساخت کوتاه کننده لینک با گیتهاب پیجز">ادامه مطلب <i class="las la-angle-left"></i></a>
+  </div>
+</article>
+                  </div>
+                  
+                  <div class="col-md-6">
+                    <article class="card post-card">
+  
+  <a href="https://bit-orbit.github.io/bitorbit/blog/post/what-is-tty-in-linux/">
+    <img loading="lazy" class="w-100 rounded" src="https://bit-orbit.github.io/bitorbit/images/post/tty.jpg" alt=" در لینوکس چیست؟ TTY ">
+  </a>
+  
+  <div class="card-body" dir="rtl">
+    <ul class="card-meta list-inline mb-2">
+      <li class="list-inline-item mb-2">
+        
+        <a href="https://bit-orbit.github.io/bitorbit/author/arya/" class="card-meta-author">
+          
+          <img loading="lazy" src="https://bit-orbit.github.io/bitorbit/images/author/arya.jpeg" alt="Arya Shabane">
+          
+          <span>Arya Shabane</span>
+        </a>
+        
+      </li>
+      <li class="list-inline-item mb-2">
+        <span>January 2022</span>
+      </li>
+      <li class="list-inline-item mb-2">
+        <ul class="card-meta-tag list-inline">
+          
+          <li class="list-inline-item"><a href="https://bit-orbit.github.io/bitorbit/tags/linux">linux</a></li>
+          
+          <li class="list-inline-item"><a href="https://bit-orbit.github.io/bitorbit/tags/linux-terminal">linux-terminal</a></li>
+          
+          <li class="list-inline-item"><a href="https://bit-orbit.github.io/bitorbit/tags/tty">tty</a></li>
+          
+          <li class="list-inline-item"><a href="https://bit-orbit.github.io/bitorbit/tags/tty-%DA%86%DB%8C%D8%B3%D8%AA">tty چیست</a></li>
+          
+          <li class="list-inline-item"><a href="https://bit-orbit.github.io/bitorbit/tags/tty-%D8%AF%D8%B1-%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3-%DA%86%DB%8C%D8%B3%D8%AA">tty در لینوکس چیست</a></li>
+          
+          <li class="list-inline-item"><a href="https://bit-orbit.github.io/bitorbit/tags/terminal">terminal</a></li>
+          
+        </ul>
+      </li>
+    </ul>
+    <h3 class="mb-3">
+      <a class="post-title" href="https://bit-orbit.github.io/bitorbit/blog/post/what-is-tty-in-linux/"> در لینوکس چیست؟ TTY </a>
+    </h3>
+    <p> شما باید درباره اصطلاح tty زمانی که به لینوکس و یونیکس آمد، شنیده باشید. اما tty چیست؟
+آیا برای شما به عنوان یک کاربر دستکتاپ مفید است؟
+به آن نیاز …</p>
+
+    <a href="https://bit-orbit.github.io/bitorbit/blog/post/what-is-tty-in-linux/" aria-label="More on  در لینوکس چیست؟ TTY ">ادامه مطلب <i class="las la-angle-left"></i></a>
+  </div>
+</article>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <aside class="col-lg-3 mt-5 mt-lg-0">
+    <div class="sticky-sidebar">
+      <div class="widget">
+        <h5 class="widget-title">
+      </div>
+      <div class="widget widget-categories">
+        <h4 class="widget-title">
+          <span>دسته بندی ها</span>
+        </h4>
+        <ul class="list-unstyled widget-list">
+          
+          <li>
+            <a class="d-flex" href="https://bit-orbit.github.io/bitorbit/categories/cyber-link/">cyber-link <small class="ml-auto">(1)</small></a>
+          </li>
+          
+          <li>
+            <a class="d-flex" href="https://bit-orbit.github.io/bitorbit/categories/fun/">fun <small class="ml-auto">(3)</small></a>
+          </li>
+          
+          <li>
+            <a class="d-flex" href="https://bit-orbit.github.io/bitorbit/categories/projects/">projects <small class="ml-auto">(2)</small></a>
+          </li>
+          
+          <li>
+            <a class="d-flex" href="https://bit-orbit.github.io/bitorbit/categories/tech/">tech <small class="ml-auto">(5)</small></a>
+          </li>
+          
+        </ul>
+        </div>
+        <div class="widget">
+          <h4 class="widget-title">
+            <span>برچسب ها</span>
+          </h4>
+          <ul class="list-inline widget-list widget-list-inline taxonomies-list">
+            
+            <li class="list-inline-item">
+              <a href="https://bit-orbit.github.io/bitorbit/tags/apocalypse/">apocalypse</a></li>
+            </li>
+            
+            <li class="list-inline-item">
+              <a href="https://bit-orbit.github.io/bitorbit/tags/backgraound/">backgraound</a></li>
+            </li>
+            
+            <li class="list-inline-item">
+              <a href="https://bit-orbit.github.io/bitorbit/tags/bash/">bash</a></li>
+            </li>
+            
+            <li class="list-inline-item">
+              <a href="https://bit-orbit.github.io/bitorbit/tags/classic/">classic</a></li>
+            </li>
+            
+            <li class="list-inline-item">
+              <a href="https://bit-orbit.github.io/bitorbit/tags/cyber-link/">cyber-link</a></li>
+            </li>
+            
+            <li class="list-inline-item">
+              <a href="https://bit-orbit.github.io/bitorbit/tags/fun/">fun</a></li>
+            </li>
+            
+            <li class="list-inline-item">
+              <a href="https://bit-orbit.github.io/bitorbit/tags/how-to-snapshot-a-single-site-page/">how-to-snapshot-a-single-site-page</a></li>
+            </li>
+            
+            <li class="list-inline-item">
+              <a href="https://bit-orbit.github.io/bitorbit/tags/init/">init</a></li>
+            </li>
+            
+            <li class="list-inline-item">
+              <a href="https://bit-orbit.github.io/bitorbit/tags/intro/">intro</a></li>
+            </li>
+            
+            <li class="list-inline-item">
+              <a href="https://bit-orbit.github.io/bitorbit/tags/iranian/">iranian</a></li>
+            </li>
+            
+            <li class="list-inline-item">
+              <a href="https://bit-orbit.github.io/bitorbit/tags/link/">link</a></li>
+            </li>
+            
+            <li class="list-inline-item">
+              <a href="https://bit-orbit.github.io/bitorbit/tags/linux/">linux</a></li>
+            </li>
+            
+            <li class="list-inline-item">
+              <a href="https://bit-orbit.github.io/bitorbit/tags/linux-terminal/">linux-terminal</a></li>
+            </li>
+            
+            <li class="list-inline-item">
+              <a href="https://bit-orbit.github.io/bitorbit/tags/mirror-a-single-web-page/">mirror-a-single-web-page</a></li>
+            </li>
+            
+            <li class="list-inline-item">
+              <a href="https://bit-orbit.github.io/bitorbit/tags/mounthly-wallpaper/">mounthly-wallpaper</a></li>
+            </li>
+            
+            <li class="list-inline-item">
+              <a href="https://bit-orbit.github.io/bitorbit/tags/music/">music</a></li>
+            </li>
+            
+            <li class="list-inline-item">
+              <a href="https://bit-orbit.github.io/bitorbit/tags/nature/">nature</a></li>
+            </li>
+            
+            <li class="list-inline-item">
+              <a href="https://bit-orbit.github.io/bitorbit/tags/no-word/">no-word</a></li>
+            </li>
+            
+            <li class="list-inline-item">
+              <a href="https://bit-orbit.github.io/bitorbit/tags/spider/">spider</a></li>
+            </li>
+            
+            <li class="list-inline-item">
+              <a href="https://bit-orbit.github.io/bitorbit/tags/tech/">tech</a></li>
+            </li>
+            
+            <li class="list-inline-item">
+              <a href="https://bit-orbit.github.io/bitorbit/tags/terminal/">terminal</a></li>
+            </li>
+            
+            <li class="list-inline-item">
+              <a href="https://bit-orbit.github.io/bitorbit/tags/tty/">tty</a></li>
+            </li>
+            
+            <li class="list-inline-item">
+              <a href="https://bit-orbit.github.io/bitorbit/tags/tty-%D8%AF%D8%B1-%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3-%DA%86%DB%8C%D8%B3%D8%AA/">tty در لینوکس چیست</a></li>
+            </li>
+            
+            <li class="list-inline-item">
+              <a href="https://bit-orbit.github.io/bitorbit/tags/tty-%DA%86%DB%8C%D8%B3%D8%AA/">tty چیست</a></li>
+            </li>
+            
+            <li class="list-inline-item">
+              <a href="https://bit-orbit.github.io/bitorbit/tags/wallpaper/">wallpaper</a></li>
+            </li>
+            
+            <li class="list-inline-item">
+              <a href="https://bit-orbit.github.io/bitorbit/tags/wget/">wget</a></li>
+            </li>
+            
+            <li class="list-inline-item">
+              <a href="https://bit-orbit.github.io/bitorbit/tags/zsh/">zsh</a></li>
+            </li>
+            
+            <li class="list-inline-item">
+              <a href="https://bit-orbit.github.io/bitorbit/tags/%D8%A7%D8%B3%D9%86%D9%BE-%D8%B4%D8%A7%D8%AA-%DA%AF%D8%B1%D9%81%D8%AA%D9%86-%D8%A7%D8%B2-%DB%8C%DA%A9-%D8%B5%D9%81%D8%AD%D9%87-%D8%B3%D8%A7%DB%8C%D8%AA/">اسنپ شات گرفتن از یک صفحه سایت</a></li>
+            </li>
+            
+            <li class="list-inline-item">
+              <a href="https://bit-orbit.github.io/bitorbit/tags/%D8%A7%D8%B3%D9%86%D9%BE-%D8%B4%D8%A7%D8%AA-%DA%AF%D8%B1%D9%81%D8%AA%D9%86-%D8%A7%D8%B2-%DB%8C%DA%A9-%D8%B5%D9%81%D8%AD%D9%87-%D8%B3%D8%A7%DB%8C%D8%AA-%D8%A8%D8%A7-%D8%AA%D9%85%D8%A7%D9%85%DB%8C-%D9%81%D8%A7%DB%8C%D9%84-%D9%87%D8%A7%DB%8C-%D9%88%D8%A7%D8%A8%D8%B3%D8%AA%D9%87%D8%B4/">اسنپ شات گرفتن از یک صفحه سایت با تمامی فایل های وابسته‌‌ش</a></li>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </aside>
+</section>
+
+
+
+
+  <footer class="section-sm">
+  <div class="container">
+    <div class="row justify-content-center align-items-center">
+      <div class="col-lg-5">
+        
+      </div>
+      <div class="col-lg-12 text-center mt-5">
+        <ul class="list-inline footer-menu mb-4">
+          
+          <li class="list-inline-item mx-3"><a href="https://bit-orbit.github.io/bitorbit/author/">نویسندگان</a></li>
+          
+        </ul>
+        <ul class="social-links icon-box list-unstyled list-inline font-weight-500 mb-3">
+          
+          <li class="list-inline-item text-center"><a href="https://t.me/FOSSFA" aria-label="social-icon">
+            <i class="lab lab la-telegram"></i>
+          </a></li>
+          
+          <li class="list-inline-item text-center"><a href="https://discord.gg/5md25aNXyc" aria-label="social-icon">
+            <i class="lab lab la-discord"></i>
+          </a></li>
+          
+          <li class="list-inline-item text-center"><a href="https://fosstodon.org/@FOSSFarsi" aria-label="social-icon">
+            <i class="lab lab la-mastodon"></i>
+          </a></li>
+          
+          <li class="list-inline-item text-center"><a href="https://matrix.to/#/#fossfa:matrix.org" aria-label="social-icon">
+            <i class="lab las la-comments"></i>
+          </a></li>
+          
+          <li class="list-inline-item text-center"><a href="https://github.com/FOSSFA" aria-label="social-icon">
+            <i class="lab lab la-github"></i>
+          </a></li>
+          
+        </ul>
+        
+        <p class="mb-0 font-weight-500 copyright-text content">تمامی حقوق محفوظ است ، تحت لایسنس <a href="http://www.gnu.org/licenses/fdl-1.3.html">FDL</a></p>
+        
+      </div>
+    </div>
+  </div>
+</footer>
+  
+
+
+
+
+  
+
+
+
+<script src="https://lib.arvancloud.com/jquery/3.6.0/jquery.js"></script>
+
+
+
+
+<script data-turbolinks-suppress-warning src="/bitorbit/js/vendor.min.671e926634ca8417d5cbb45fbb8124e36434354b82d2f0894a8896b857d7555906a1f5adbd9e606d6dc0ba9439e1cc35126118d5efba74b8eadf94f432e32ee2.js" integrity="sha512-Zx6SZjTKhBfVy7Rfu4Ek42Q0NUuC0vCJSoiWuFfXVVkGofWtvZ5gbW3AupQ54cw1EmEY1e&#43;6dLjq35T0MuMu4g=="></script>
+
+
+
+
+
+
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
+</body>
+
+</html>

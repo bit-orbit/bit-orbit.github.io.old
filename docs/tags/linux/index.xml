@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>linux on bit orbit</title>
+    <link>https://bit-orbit.github.io/bitorbit/tags/linux/</link>
+    <description>Recent content in linux on bit orbit</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fa-IR</language>
+    <lastBuildDate>Mon, 31 Jan 2022 19:57:05 +0330</lastBuildDate><atom:link href="https://bit-orbit.github.io/bitorbit/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title> در لینوکس چیست؟ TTY </title>
+      <link>https://bit-orbit.github.io/bitorbit/blog/post/what-is-tty-in-linux/</link>
+      <pubDate>Mon, 31 Jan 2022 19:57:05 +0330</pubDate>
+      
+      <guid>https://bit-orbit.github.io/bitorbit/blog/post/what-is-tty-in-linux/</guid>
+      <description>شما باید درباره اصطلاح tty زمانی که به لینوکس و یونیکس آمد، شنیده باشید. اما tty چیست؟
+آیا برای شما به عنوان یک کاربر دستکتاپ مفید است؟
+به آن نیاز دارید؟ می‌توانید با آن چه کار کنید؟
+اجازه دهید هر چیز ضروری برای آشنا کردن شما با اصطلاح tty را در این پست برسی کنیم.
+به یاد داشته باشید که پاسخ قطعی برای این سوال وجود ندارد، اما به نحوه تعامل دستگاه های input/output(ورودی/خروجی) در گذشته ربط دارد.</description>
+    </item>
+    
+    <item>
+      <title>اسنپ شات گرفتن از یک صفحه سایت با تمامی فایل های وابسته‌‌ش(عکس، استایل، جاوا اسکریپت)</title>
+      <link>https://bit-orbit.github.io/bitorbit/blog/post/web-snapshout/</link>
+      <pubDate>Mon, 17 Jan 2022 14:56:14 +0330</pubDate>
+      
+      <guid>https://bit-orbit.github.io/bitorbit/blog/post/web-snapshout/</guid>
+      <description>زمانی که مقاله یا پستی را می‌خوانم، گاهی احساس می‌کنم ممکنه یک مطلب را فراموش کنم. مثلا اگه مقاله‌ای از ویرگول درباره یک دستور لینوکس بخوانم، برای اینکه مطلبش را فراموش نکنم باید هرزگاهی به پست سر بزنم و مطالب را مرور کنم. اما فکر کنید مطلب درباره برنامه‌ای باشد که می‌توان با استفاده از آن سانسور را دور زد، ویرگول احتمالا آن مطلب را حذف می‌کند.
+چه راهی برای ذخیره پست پشنهاد می‌کنید که بعدا بتوان آن را بارها مرور کرد؟</description>
+    </item>
+    
+    <item>
+      <title> zsh بهترین پلاگین های </title>
+      <link>https://bit-orbit.github.io/bitorbit/blog/post/best-zsh-plugin/</link>
+      <pubDate>Tue, 11 Jan 2022 02:44:12 +0330</pubDate>
+      
+      <guid>https://bit-orbit.github.io/bitorbit/blog/post/best-zsh-plugin/</guid>
+      <description>نوشتن یک برنامه کار سختی نیست، بلکه نگه‌داری و آپدیت یک برنامه‌ست، پلاگین این ویژگی را می‌دهد تا به راحتی عملکرد یک برنامه را بی‌افزاییم.
+themes #Ⅳ انتخاب بین تم های zsh واقعا کار سختیه!‌ هر تم ظاهر جدیدی به ترمینال شما می‌دهد که کار کردن در ترمینال را جذاب تر می‌کند.
+با استفاده از این پلاگین شما بدون نیاز به تغییر دستی فایل کانفیگ zshrc.، می‌توانید تم را تغییر بدین.</description>
+    </item>
+    
+  </channel>
+</rss>
