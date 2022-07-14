@@ -66,7 +66,7 @@ Commentlabel = "Comment"
 # -- Logo and Favicon --
 logo = "images/logo.png"
 logo_height = "65px"
-favicon = "images/favicon.png"
+favicon = "images/logo.svg"
 
 # -- Meta data --
 description = "Linux | Project | Python | Book | Fun | Life | Love"
