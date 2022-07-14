@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>bit orbit</title>
-    <link>https://bit-orbit.github.io/bitorbit/</link>
+    <link>https://bit-orbit.github.io/</link>
     <description>Recent content on bit orbit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fa-IR</language>
-    <lastBuildDate>Sun, 01 May 2022 04:48:44 +0430</lastBuildDate><atom:link href="https://bit-orbit.github.io/bitorbit/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 May 2022 04:48:44 +0430</lastBuildDate><atom:link href="https://bit-orbit.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>کپی کردن ریزالت پایپ به کلیپ برد</title>
-      <link>https://bit-orbit.github.io/bitorbit/blog/post/stdin-to-clp/</link>
+      <link>https://bit-orbit.github.io/blog/post/stdin-to-clp/</link>
       <pubDate>Sun, 01 May 2022 04:48:44 +0430</pubDate>
       
-      <guid>https://bit-orbit.github.io/bitorbit/blog/post/stdin-to-clp/</guid>
+      <guid>https://bit-orbit.github.io/blog/post/stdin-to-clp/</guid>
       <description>ما زمانی که برنامه‌ای در ترمینال اجرا می‌کنیم برای کپی کردن ریزالت اون برنامه، با موس تکست رو سلکت می‌کنیم و بعد کپی می‌کنیم. اما می‌دونیم که توی لینوکس ما pipe رو داریم. پایپ کردن به این معنی است که شما یک برنامه رو اجرا می‌کنید و ریزالت اون برنامه رو بعنوان ورودی به یک برنامه دیگر می‌دهید. و خب کاش می‌شد با پایپ کردن، متنی کپی بشه!
 برنامه‌ای ساده نوشتم که این کار رو برای ما به سادگی انجام بده.</description>
     </item>
     
     <item>
       <title>ساخت کوتاه کننده لینک با گیتهاب پیجز</title>
-      <link>https://bit-orbit.github.io/bitorbit/blog/post/carbon/</link>
+      <link>https://bit-orbit.github.io/blog/post/carbon/</link>
       <pubDate>Tue, 22 Mar 2022 22:41:20 +0000</pubDate>
       
-      <guid>https://bit-orbit.github.io/bitorbit/blog/post/carbon/</guid>
+      <guid>https://bit-orbit.github.io/blog/post/carbon/</guid>
       <description>شاید تا به حال از کوتاه کننده های لینک استفاده کرده باشید، اما ایا سایت کوتاه کننده لینک خودتون رو درست کردین؟
 گیتهاب پیجز یک سرور رایگان برای دیپلوی سایت های ایستا است. در واقع شما می‌توانید صفحه های html رو توی ریپو قرار بدین و این سایت اون صفحه ها رو به رایگان برای شما نمایش می‌دهد.
 از همین قابلیت برای ساخت یک url redirector استفاده کردم، و با کمی جاوا اسکریپت یک صفحه درست کردم که وقتی شما با مرورگر اون رو باز می‌کنید، مرورگر شما به صورت خودکار به یک آدرس متفاوت منتقل خواهد شد.</description>
@@ -30,10 +30,10 @@
     
     <item>
       <title> در لینوکس چیست؟ TTY </title>
-      <link>https://bit-orbit.github.io/bitorbit/blog/post/what-is-tty-in-linux/</link>
+      <link>https://bit-orbit.github.io/blog/post/what-is-tty-in-linux/</link>
       <pubDate>Mon, 31 Jan 2022 19:57:05 +0330</pubDate>
       
-      <guid>https://bit-orbit.github.io/bitorbit/blog/post/what-is-tty-in-linux/</guid>
+      <guid>https://bit-orbit.github.io/blog/post/what-is-tty-in-linux/</guid>
       <description>شما باید درباره اصطلاح tty زمانی که به لینوکس و یونیکس آمد، شنیده باشید. اما tty چیست؟
 آیا برای شما به عنوان یک کاربر دستکتاپ مفید است؟
 به آن نیاز دارید؟ می‌توانید با آن چه کار کنید؟
@@ -43,30 +43,30 @@
     
     <item>
       <title>والپیپر های طبیعت قسمت 00</title>
-      <link>https://bit-orbit.github.io/bitorbit/blog/gallery/001/</link>
+      <link>https://bit-orbit.github.io/blog/gallery/001/</link>
       <pubDate>Thu, 27 Jan 2022 02:32:12 +0330</pubDate>
       
-      <guid>https://bit-orbit.github.io/bitorbit/blog/gallery/001/</guid>
+      <guid>https://bit-orbit.github.io/blog/gallery/001/</guid>
       <description>پس زمینه های منتخب ماه این ماه تصمیم گرفتم بیشتر عکس هایی از طبیعت بذارم. ماه قبل عکس ها، عکس های دارک بودند. که خب گاهی جالبه.
 به دلیل اینکه کیفیت عکس ها ارجینال هست، حجمشون هم کمی زیاده. و صفحه با کمی تاخیر لود میشه.</description>
     </item>
     
     <item>
       <title>اسنپ شات گرفتن از یک صفحه سایت با تمامی فایل های وابسته‌‌ش(عکس، استایل، جاوا اسکریپت)</title>
-      <link>https://bit-orbit.github.io/bitorbit/blog/post/web-snapshout/</link>
+      <link>https://bit-orbit.github.io/blog/post/web-snapshout/</link>
       <pubDate>Mon, 17 Jan 2022 14:56:14 +0330</pubDate>
       
-      <guid>https://bit-orbit.github.io/bitorbit/blog/post/web-snapshout/</guid>
+      <guid>https://bit-orbit.github.io/blog/post/web-snapshout/</guid>
       <description>زمانی که مقاله یا پستی را می‌خوانم، گاهی احساس می‌کنم ممکنه یک مطلب را فراموش کنم. مثلا اگه مقاله‌ای از ویرگول درباره یک دستور لینوکس بخوانم، برای اینکه مطلبش را فراموش نکنم باید هرزگاهی به پست سر بزنم و مطالب را مرور کنم. اما فکر کنید مطلب درباره برنامه‌ای باشد که می‌توان با استفاده از آن سانسور را دور زد، ویرگول احتمالا آن مطلب را حذف می‌کند.
 چه راهی برای ذخیره پست پشنهاد می‌کنید که بعدا بتوان آن را بارها مرور کرد؟</description>
     </item>
     
     <item>
       <title> پلاگین های کاربردی گنوم </title>
-      <link>https://bit-orbit.github.io/bitorbit/blog/post/best-gnome-plugin/</link>
+      <link>https://bit-orbit.github.io/blog/post/best-gnome-plugin/</link>
       <pubDate>Fri, 14 Jan 2022 18:18:28 +0330</pubDate>
       
-      <guid>https://bit-orbit.github.io/bitorbit/blog/post/best-gnome-plugin/</guid>
+      <guid>https://bit-orbit.github.io/blog/post/best-gnome-plugin/</guid>
       <description>اگر مثل من از محیط gnome روی توزیع لینوکس استفاده می‌کنید، احتمالا شیفته سادگی‌اش شدید! اما بیایید چند پلاگین به آن اضافه کنیم تا درضمن داشتن این سادگی، عملکرد این محیط را توسعه دهیم.
 #I Shutdown Timer در لینوکس به سادگی با یک کامند می‌شود سیستم را زمانبندی کرد که خاموش یا تعلیق شود. با نصب این پلاگین مجبور به وارد کردن کامند برای خاموش/تعلیق کردن نیستیم!
 #II Application Volume Mixer بار ها شده که نیاز دارم صدای یک برنامه رو کم کنم و صدای برنامه‌ای دیگر را زیاد.</description>
@@ -74,10 +74,10 @@
     
     <item>
       <title> zsh بهترین پلاگین های </title>
-      <link>https://bit-orbit.github.io/bitorbit/blog/post/best-zsh-plugin/</link>
+      <link>https://bit-orbit.github.io/blog/post/best-zsh-plugin/</link>
       <pubDate>Tue, 11 Jan 2022 02:44:12 +0330</pubDate>
       
-      <guid>https://bit-orbit.github.io/bitorbit/blog/post/best-zsh-plugin/</guid>
+      <guid>https://bit-orbit.github.io/blog/post/best-zsh-plugin/</guid>
       <description>نوشتن یک برنامه کار سختی نیست، بلکه نگه‌داری و آپدیت یک برنامه‌ست، پلاگین این ویژگی را می‌دهد تا به راحتی عملکرد یک برنامه را بی‌افزاییم.
 themes #Ⅳ انتخاب بین تم های zsh واقعا کار سختیه!‌ هر تم ظاهر جدیدی به ترمینال شما می‌دهد که کار کردن در ترمینال را جذاب تر می‌کند.
 با استفاده از این پلاگین شما بدون نیاز به تغییر دستی فایل کانفیگ zshrc.، می‌توانید تم را تغییر بدین.</description>
@@ -85,93 +85,93 @@ themes #Ⅳ انتخاب بین تم های zsh واقعا کار سختیه!‌
     
     <item>
       <title>معرفی سایبر لینک های بلاگ</title>
-      <link>https://bit-orbit.github.io/bitorbit/blog/cyber-links/intro-to-it/</link>
+      <link>https://bit-orbit.github.io/blog/cyber-links/intro-to-it/</link>
       <pubDate>Thu, 23 Dec 2021 00:09:46 +0330</pubDate>
       
-      <guid>https://bit-orbit.github.io/bitorbit/blog/cyber-links/intro-to-it/</guid>
+      <guid>https://bit-orbit.github.io/blog/cyber-links/intro-to-it/</guid>
       <description>همه‌ی ما فعالیت زیادی در اینترنت داریم، من سعی می‌کنم هر ماه محتوایی که برای من آموزشی و جذاب بود رو به صورت لینک با توضیحی مختصر اینجا منتشر کنم. اگر شما هم به محتوای با ارزشی بر خورد کردید و به فکر اشتراک اون محتوا با اهلش هستید، می‌توانید لینکش را به من ایمیل m.mohamadshabane@gmail.com یا تلگرام کنید.</description>
     </item>
     
     <item>
       <title>قطعه های زیبای استاد مشکاتیان</title>
-      <link>https://bit-orbit.github.io/bitorbit/blog/music/khazan/</link>
+      <link>https://bit-orbit.github.io/blog/music/khazan/</link>
       <pubDate>Tue, 21 Dec 2021 14:59:32 +0330</pubDate>
       
-      <guid>https://bit-orbit.github.io/bitorbit/blog/music/khazan/</guid>
+      <guid>https://bit-orbit.github.io/blog/music/khazan/</guid>
       <description> دقایقی آرامش با چند موزیک سنتی بی‌کلام ایرانی #1 خزان Harmonia7 · Khazan, خزان - پرویز مشکاتیان دود و عود #2 Sajad · دود عود - سنتور - مشکاتیان طلوع #3 Ehsan Gazooki · قطعه طلوع (پرویز مشکاتیان) - آلبوم نــوا</description>
     </item>
     
     <item>
       <title>Arya Shabane</title>
-      <link>https://bit-orbit.github.io/bitorbit/author/arya/</link>
+      <link>https://bit-orbit.github.io/author/arya/</link>
       <pubDate>Tue, 21 Dec 2021 13:53:52 +0330</pubDate>
       
-      <guid>https://bit-orbit.github.io/bitorbit/author/arya/</guid>
+      <guid>https://bit-orbit.github.io/author/arya/</guid>
       <description></description>
     </item>
     
     <item>
       <title>عکس های پس زمینه آخرالزمانی قسمت 0</title>
-      <link>https://bit-orbit.github.io/bitorbit/blog/gallery/000/</link>
+      <link>https://bit-orbit.github.io/blog/gallery/000/</link>
       <pubDate>Tue, 21 Dec 2021 13:32:21 +0330</pubDate>
       
-      <guid>https://bit-orbit.github.io/bitorbit/blog/gallery/000/</guid>
+      <guid>https://bit-orbit.github.io/blog/gallery/000/</guid>
       <description>! عکسا در بالاترین کیفیت هستند، پس احتمالا لود شدنشون کمی طول می‌کشه.
 تعداد حجم 9 24 MB images </description>
     </item>
     
     <item>
       <title>Search Result</title>
-      <link>https://bit-orbit.github.io/bitorbit/search/</link>
+      <link>https://bit-orbit.github.io/search/</link>
       <pubDate>Mon, 24 Sep 2018 11:07:10 +0600</pubDate>
       
-      <guid>https://bit-orbit.github.io/bitorbit/search/</guid>
+      <guid>https://bit-orbit.github.io/search/</guid>
       <description></description>
     </item>
     
     <item>
       <title>About</title>
-      <link>https://bit-orbit.github.io/bitorbit/about/</link>
+      <link>https://bit-orbit.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://bit-orbit.github.io/bitorbit/about/</guid>
+      <guid>https://bit-orbit.github.io/about/</guid>
       <description>دانشجوی دانشگاه ندیده رشته نرم افزار. به تکنولوژی خیلی علاقه دارم و دوست دارم دربارشون بنویسم، این شد که با دوستانم تصمیم گرفتیم این بلاگ رو درست کنیم تا وقتی حرفی برای گفتن داشتیم اینجا بهتون بگیم.</description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>https://bit-orbit.github.io/bitorbit/contact/</link>
+      <link>https://bit-orbit.github.io/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://bit-orbit.github.io/bitorbit/contact/</guid>
+      <guid>https://bit-orbit.github.io/contact/</guid>
       <description></description>
     </item>
     
     <item>
       <title>No Search Found</title>
-      <link>https://bit-orbit.github.io/bitorbit/404/</link>
+      <link>https://bit-orbit.github.io/404/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://bit-orbit.github.io/bitorbit/404/</guid>
+      <guid>https://bit-orbit.github.io/404/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Privacy</title>
-      <link>https://bit-orbit.github.io/bitorbit/privacy/</link>
+      <link>https://bit-orbit.github.io/privacy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://bit-orbit.github.io/bitorbit/privacy/</guid>
+      <guid>https://bit-orbit.github.io/privacy/</guid>
       <description>Responsibility of Contributors Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus. Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed
 pretium, aliquam sit. Praesent elementum magna amet, tincidunt eros, nibh in leo.</description>
     </item>
     
     <item>
       <title>Terms And Conditions</title>
-      <link>https://bit-orbit.github.io/bitorbit/terms-conditions/</link>
+      <link>https://bit-orbit.github.io/terms-conditions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://bit-orbit.github.io/bitorbit/terms-conditions/</guid>
+      <guid>https://bit-orbit.github.io/terms-conditions/</guid>
       <description>Responsibility of Contributors Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus. Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed
 pretium, aliquam sit. Praesent elementum magna amet, tincidunt eros, nibh in leo.</description>
     </item>

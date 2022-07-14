@@ -1,5 +1,5 @@
 # -- Base Conf --
-baseURL = "https://bit-orbit.github.io/bitorbit/"
+baseURL = "https://bit-orbit.github.io/"
 languageCode = "fa-IR"
 title = "bit orbit"
 theme = "bookworm-FE"
