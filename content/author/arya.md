@@ -3,7 +3,7 @@ title: "Arya Shabane"
 email: "abdulmonnafsomrat@gmail.com"
 date: 2021-12-21T13:53:52+03:30
 draft: false
-image: "images/author/arya.jpeg"
+image: "images/author/arya.jpg"
 social:
 - icon: "la-twitter"
   link: "https://twitter.com/m_shabane"
