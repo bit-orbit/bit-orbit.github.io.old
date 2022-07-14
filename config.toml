@@ -50,7 +50,7 @@ black = "#000000"
 dark = "#152035"
 gray = "#747577"
 light = "#FAFAFA"
-color_primary = "#01AD9F"
+color_primary = "#5DADE2"
 
 # ----- Theme Parameters -----
 [params]
