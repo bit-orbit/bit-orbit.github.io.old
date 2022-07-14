@@ -89,28 +89,34 @@ user = "gnkalk"
 
 # - telegram -
 [[params.social]]
-url = "https://t.me/FOSSFA"
+url = "https://t.me/bit_orbit"
 icon = "lab la-telegram"
 
-# - discord -
-[[params.social]]
-url = "https://discord.gg/5md25aNXyc"
-icon = "lab la-discord"
+# # - discord -
+# [[params.social]]
+# url = "https://discord.gg/5md25aNXyc"
+# icon = "lab la-discord"
 
-# - Mastodon -
-[[params.social]]
-url = "https://fosstodon.org/@FOSSFarsi"
-icon = "lab la-mastodon"
+# # - Mastodon -
+# [[params.social]]
+# url = "https://fosstodon.org/@FOSSFarsi"
+# icon = "lab la-mastodon"
 
-# - Matrix -
-[[params.social]]
-url = "https://matrix.to/#/#fossfa:matrix.org"
-icon = "las la-comments"
+# # - Matrix -
+# [[params.social]]
+# url = "https://matrix.to/#/#fossfa:matrix.org"
+# icon = "las la-comments"
 
 # - Github -
 [[params.social]]
-url = "https://github.com/FOSSFA"
+url = "https://github.com/bit-orbit"
 icon = "lab la-github"
+
+
+# - Github -
+[[params.social]]
+url = "https://twitter.com/shabane"
+icon = "lab la-twitter"
 
 # ----- Menu -----
 
