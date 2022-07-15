@@ -164,6 +164,22 @@ overview
 
 ---
 
+### #VIII [Jiggle](https://extensions.gnome.org/extension/3438/jiggle/)
 
+کرسر موس رو گم کردین؟ موس رو تکون بدین!
+
+![Jiggle](/images/post/screenshot_3438.gif)
+
+---
+
+### #IX [Custom Hot Corners](https://extensions.gnome.org/extension/1362/custom-hot-corners/)
+
+یکی از پلاگین های مورد علاقه من، با این پلاگین لبه سیستم را برای یک عمل خاصی تنظیم می‌کنیم که وقتی
+کرسور موس به سمت آن رفت، آن عمل انجام بشود. مثلا وقتی موس به گوشه سمت بالا برخورد کرد،
+منوی
+over view
+باز بشود. و یا مثلا نظیم می‌کنیم که وقتی موس به گوشه پایین سمنت چپ بر خورد کرد یک کامند اجرا شود.
+
+![Custom Hot Corner](/images/post/1.gif)
 
 </div>
