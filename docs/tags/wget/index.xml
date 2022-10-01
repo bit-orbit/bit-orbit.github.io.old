@@ -1,21 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>wget on bit orbit</title>
-    <link>https://bit-orbit.github.io/tags/wget/</link>
-    <description>Recent content in wget on bit orbit</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>fa-IR</language>
-    <lastBuildDate>Mon, 17 Jan 2022 14:56:14 +0330</lastBuildDate><atom:link href="https://bit-orbit.github.io/tags/wget/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>اسنپ شات گرفتن از یک صفحه سایت با تمامی فایل های وابسته‌‌ش(عکس، استایل، جاوا اسکریپت)</title>
-      <link>https://bit-orbit.github.io/blog/post/web-snapshout/</link>
-      <pubDate>Mon, 17 Jan 2022 14:56:14 +0330</pubDate>
-      
-      <guid>https://bit-orbit.github.io/blog/post/web-snapshout/</guid>
-      <description>زمانی که مقاله یا پستی را می‌خوانم، گاهی احساس می‌کنم ممکنه یک مطلب را فراموش کنم. مثلا اگه مقاله‌ای از ویرگول درباره یک دستور لینوکس بخوانم، برای اینکه مطلبش را فراموش نکنم باید هرزگاهی به پست سر بزنم و مطالب را مرور کنم. اما فکر کنید مطلب درباره برنامه‌ای باشد که می‌توان با استفاده از آن سانسور را دور زد، ویرگول احتمالا آن مطلب را حذف می‌کند.
-چه راهی برای ذخیره پست پشنهاد می‌کنید که بعدا بتوان آن را بارها مرور کرد؟</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>wget on bit orbit</title><link>https://bit-orbit.github.io/tags/wget/</link><description>Recent content in wget on bit orbit</description><generator>Hugo -- gohugo.io</generator><language>fa-IR</language><lastBuildDate>Mon, 17 Jan 2022 14:56:14 +0330</lastBuildDate><atom:link href="https://bit-orbit.github.io/tags/wget/index.xml" rel="self" type="application/rss+xml"/><item><title>اسنپ شات گرفتن از یک صفحه سایت با تمامی فایل های وابسته‌‌ش(عکس، استایل، جاوا اسکریپت)</title><link>https://bit-orbit.github.io/blog/post/web-snapshout/</link><pubDate>Mon, 17 Jan 2022 14:56:14 +0330</pubDate><guid>https://bit-orbit.github.io/blog/post/web-snapshout/</guid><description>زمانی که مقاله یا پستی را می‌خوانم، گاهی احساس می‌کنم ممکنه یک مطلب را فراموش کنم. مثلا اگه مقاله‌ای از ویرگول درباره یک دستور لینوکس بخوانم، برای اینکه مطلبش را فراموش نکنم باید هرزگاهی به پست سر بزنم و مطالب را مرور کنم. اما فکر کنید مطلب درباره برنامه‌ای باشد که می‌توان با استفاده از آن سانسور را دور زد، ویرگول احتمالا آن مطلب را حذف می‌کند.
+چه راهی برای ذخیره پست پشنهاد می‌کنید که بعدا بتوان آن را بارها مرور کرد؟</description></item></channel></rss>
