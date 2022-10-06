@@ -137,6 +137,11 @@ weight = 4
 url = "contact"
 name = "ارتباط با ما"
 
+[[menu.main]]
+weight = 5
+url = "https://bit-orbit.github.io/the-secret-bit/"
+name = "پروژه کتاب آزاد لینوکس"
+
 # -- Footer Menu --
 
 [[menu.footer]]
